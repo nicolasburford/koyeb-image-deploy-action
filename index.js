@@ -33,6 +33,7 @@ const main = async () => {
     "definition": {
       "name": deployment.definition.name,
       "docker": deployment.definition.docker,
+      "routes":deployment.definition.routes,
       "regions": deployment.definition.regions,
       "ports": deployment.definition.ports,
       "instance_types": deployment.definition.instance_types,
