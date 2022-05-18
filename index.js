@@ -2,7 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const http = require('./common/http');
 
-const main = () => {
+const main = async () => {
   const serviceId = core.getInput('service-id');
   const dockerImageUrl = core.getInput('docker-image');
   const koyebToken = core.getInput('koyeb-token');
