@@ -7,7 +7,7 @@ inputs:
   docker-image:
     description: 'Docker image you want to deploy'
     required: true
-  koyebToken:
+  koyeb-token:
     description: 'Koyeb auth token'
     required: true
 runs:
