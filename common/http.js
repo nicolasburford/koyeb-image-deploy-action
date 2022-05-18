@@ -28,7 +28,7 @@ const request = (params, postData) => {
           reject(err);
       });
       if (postData) {
-          req.write(postData);
+          req.write(JSON.stringify(postData));
       }
       // IMPORTANT
       req.end();
